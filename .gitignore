@@ -1,0 +1,21 @@
+# python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# runtime artifacts
+backend/data/
+backend/static/
+*.log
+nohup.out
+
+# node
+node_modules/
+frontend/dist/
+
+# env & editors
+.env
+.DS_Store
+.idea/
+.vscode/
