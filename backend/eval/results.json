@@ -1,0 +1,28 @@
+{
+  "n_questions": 24,
+  "n_chunks": 422,
+  "embedding_backend": "st",
+  "retrieval": {
+    "bm25": {
+      "hit@1": 0.458,
+      "hit@5": 0.792,
+      "mrr@10": 0.602
+    },
+    "dense": {
+      "hit@1": 0.625,
+      "hit@5": 0.875,
+      "mrr@10": 0.723
+    },
+    "hybrid": {
+      "hit@1": 0.625,
+      "hit@5": 0.833,
+      "mrr@10": 0.721
+    }
+  },
+  "answering": {
+    "provider": "extractive",
+    "citations_total": 96,
+    "citation_precision": 0.323,
+    "mean_groundedness": 1.0
+  }
+}
