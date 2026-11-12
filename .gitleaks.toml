@@ -1,0 +1,13 @@
+# RFC 6749 (the OAuth 2.0 spec itself) contains illustrative example tokens
+# such as "2YotnFZFEjr1zCsicMWpAA" — public specification text, not secrets.
+# backend/data/ is a local, gitignored index artifact built from that same text.
+
+[extend]
+useDefault = true
+
+[allowlist]
+description = "RFC corpus example tokens and local index artifacts"
+paths = [
+  '''corpus/rfc6749\.txt''',
+  '''backend/data/.*''',
+]
